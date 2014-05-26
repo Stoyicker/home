@@ -4,6 +4,7 @@ home
 My personal webpage.
 
 TODO:
+
 1. Add 'back to top' button.
 2. Add TFG as project.
 3. Put cooler image of myself.
