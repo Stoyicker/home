@@ -90,7 +90,7 @@ jQuery(document).ready(function() {
     <div class="inner">
       <div class="row flush">
         <div id="lolin1-data-provider" class="3u"><a href="http://github.com/Stoyicker/lolin1-data-provider" target="_blank" class="image full"><img style="display:inline" src="images/server.svg" alt="" title="lolin1-data-provider" /></a></div>
-        <div id="dp_report" class="3u"><a href="http://remotehost.herobo.com/degree_project/DP-DiazBenitoSoriano.pdf" target="_blank" class="image full"><img style="display:inline" src="images/document.svg"/></a></div>       
+        <div id="dp_report" class="3u"><a href="http://remotehost.herobo.com/degree_project/DP-DiazBenitoSoriano.pdf" target="_blank" class="image full"><img style="display:inline" src="images/document.svg"/></a></div>
         <div id="dp_demo" class="3u"><a href="https://www.youtube.com/watch?v=j4_82Of8PH4&list=PLUynSvFkCmvKpKrjn_FNWPmtURkH_SD9K" target="_blank" class="image full"><img style="display:inline" src="images/play.svg"/></a></div>
         <div id="LoLin1" class="3u"><a href="http://stoyicker.github.io/LoLin1" target="_blank" class="image full"><img style="display:inline" src="images/android.svg" alt="" title="LoLin1"/></a></div>
       </div>
@@ -114,14 +114,16 @@ jQuery(document).ready(function() {
       </div>
       <div class="row half">
         <div class="12u">
-          <textarea name="Body" name="message" placeholder="Message"></textarea>
+          <textarea name="Body" name="message" placeholder="Message">
+          </textarea>
         </div>
-      </div><br>
+      </div>
+      <br>
       <div class="row">
         <div class="12u">
           <ul class="actions">
             <li>
-            <input type="submit" value="Send e-mail" class="button form"/>
+              <input type="submit" value="Send e-mail" class="button form"/>
             </li>
           </ul>
         </div>
@@ -134,7 +136,17 @@ frmvalidator.addValidation("name","req","Please provide your name");
 </script> 
   </article>
 </section>
-<section id="footer"> </section>
+<section id="footer">
+  <ul class="icons">
+    <li><a href="http://facebook.com/Mangarinos" target="_blank" class="fa fa-facebook solo" style="
+	border-bottom: none;"><span>Facebook</span></a>
+    <li><a href="http://linkedin.com/in/jorgediazbenitosoriano" target="_blank" class="fa fa-linkedin solo" style="
+	border-bottom: none;"><span>LinkedIn</span></a></li>
+    <li><a href="http://twitter.com/JMangarinos" target="_blank" class="fa fa-twitter solo" style="
+	border-bottom: none;"><span>Twitter</span></a></li>
+    </li>
+  </ul>
+</section>
 <a href="#" class="back-to-top"></a>
 </body>
 </html>
