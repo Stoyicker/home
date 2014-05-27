@@ -22,24 +22,13 @@
 	right: 10px;
 	text-decoration: none;
 	padding: 1em;
-	width:51px;
-	height:51px;
+	width:70px;
+	height:70px;
 	display: none;
 	border-bottom: none;
-	background-image:url(images/go_top_blue.png);
+	background-image:url(images/slide-top.png);
 }
-.back-to-top:hover {
-	position: fixed;
-	bottom: 1em;
-	right: 10px;
-	text-decoration: none;
-	width:51px;
-	height:51px;
-	padding: 1em;
-	display: none;
-	border-bottom: none;
-	background-image:url(images/go_top_white.png);
-}
+
 body {
 	background: #183026 url('../images/bg.jpg') no-repeat;
 	background-size: cover;
