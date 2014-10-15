@@ -105,18 +105,12 @@ jQuery(document).ready(function() {
   <article class="container box style3">
     <header>
       <h2>Get in touch</h2>
-      <p>(And actually get a reply!)</p>
+      <p>(and actually get a reply!)</p>
     </header>
     <form method="POST" name="contactform" action="mailto:jorge.diazbenitosoriano@gmail.com?subject=Personal webpage contact request" enctype="text/plain">
       <div class="row half">
-        <div class="6u">
-          <input name="Name" type="text" class="text" name="name" placeholder="Name" />
-        </div>
-      </div>
-      <div class="row half">
         <div class="12u">
-          <textarea name="Body" name="message" placeholder="Message">
-          </textarea>
+          <textarea name="Body" name="message" placeholder="Message"/>
         </div>
       </div>
       <br>
@@ -130,11 +124,6 @@ jQuery(document).ready(function() {
         </div>
       </div>
     </form>
-    <script language="JavaScript" src="js/gen_validatorv31.js" type="text/javascript"></script>
-    <script language="JavaScript">
-var frmvalidator  = new Validator("contactform");
-frmvalidator.addValidation("name","req","Please provide your name");
-</script>
   </article>
 </section>
 <section id="footer">
