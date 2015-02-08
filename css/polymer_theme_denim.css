@@ -8,6 +8,7 @@
  * Based on Polymer: http://www.polymer-project.org/
  * Compatible with Polymer 0.5.1
  */
+
 html {
   font-family: 'Source Sans Pro', sans-serif;
   -ms-text-size-adjust: 100%;
@@ -325,7 +326,7 @@ html /deep/ paper-checkbox {
 html paper-checkbox::shadow #ink,
 html /deep/ paper-checkbox::shadow #ink {
   color: #bdced7;
-/* Change the ink color for checked state */
+  /* Change the ink color for checked state */
 }
 html paper-checkbox::shadow #ink[checked],
 html /deep/ paper-checkbox::shadow #ink[checked] {
@@ -334,7 +335,7 @@ html /deep/ paper-checkbox::shadow #ink[checked] {
 html paper-checkbox::shadow #checkbox,
 html /deep/ paper-checkbox::shadow #checkbox {
   border-color: #bdced7;
-/* Change the checkbox checked color */
+  /* Change the checkbox checked color */
 }
 html paper-checkbox::shadow #checkbox.checked,
 html /deep/ paper-checkbox::shadow #checkbox.checked {
@@ -359,8 +360,8 @@ html core-toolbar,
 html /deep/ core-toolbar {
   background-color: #484e6e;
   color: #bdced7;
-  -webkit-box-shadow: 0px 3px 2px rgba(0,0,0,0.2);
-  box-shadow: 0px 3px 2px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);
 }
 html paper-tabs.transparent-teal,
 html /deep/ paper-tabs.transparent-teal {
@@ -387,7 +388,7 @@ html /deep/ paper-tabs::shadow * {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-touch-callout: none;
 }
 html paper-tabs::shadow #selectionBar,
@@ -414,7 +415,7 @@ html /deep/ paper-toast::shadow * {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-touch-callout: none;
 }
 html paper-input[focused] .floated-label,
@@ -447,63 +448,72 @@ html paper-input-decorator /deep/ .label-text,
 html /deep/ paper-input-decorator /deep/ .label-text,
 html paper-input-decorator /deep/ .error,
 html /deep/ paper-input-decorator /deep/ .error {
-/* inline label,  floating label, error message and error icon color when the input is unfocused */
+  /* inline label,  floating label, error message and error icon color when the input is unfocused */
+
   color: #edf1f4;
 }
 html paper-input-decorator /deep/ .unfocused-underline,
 html /deep/ paper-input-decorator /deep/ .unfocused-underline {
-/* line color when the input is unfocused */
+  /* line color when the input is unfocused */
+
   background-color: #edf1f4;
 }
 html paper-input-decorator /deep/ .focused-underline,
 html /deep/ paper-input-decorator /deep/ .focused-underline {
-/* line color when the input is focused */
+  /* line color when the input is focused */
+
   background-color: #90a4ae;
 }
 html paper-input-decorator /deep/ .cursor,
 html /deep/ paper-input-decorator /deep/ .cursor {
-/* cursor color during the focus transition */
+  /* cursor color during the focus transition */
+
   background-color: #90a4ae;
 }
-html paper-input-decorator /deep/ ::-webkit-input-placeholder,
-html /deep/ paper-input-decorator /deep/ ::-webkit-input-placeholder {
-/* platform specific rules for placeholder text */
+html paper-input-decorator /deep/::-webkit-input-placeholder,
+html /deep/ paper-input-decorator /deep/::-webkit-input-placeholder {
+  /* platform specific rules for placeholder text */
+
   color: #edf1f4;
 }
-html paper-input-decorator /deep/ ::-moz-placeholder,
-html /deep/ paper-input-decorator /deep/ ::-moz-placeholder {
+html paper-input-decorator /deep/::-moz-placeholder,
+html /deep/ paper-input-decorator /deep/::-moz-placeholder {
   color: #edf1f4;
 }
-html paper-input-decorator /deep/ :-ms-input-placeholder,
-html /deep/ paper-input-decorator /deep/ :-ms-input-placeholder {
+html paper-input-decorator /deep/:-ms-input-placeholder,
+html /deep/ paper-input-decorator /deep/:-ms-input-placeholder {
   color: #edf1f4;
 }
 html paper-input-decorator[focused] .floated-label .label-text,
 html /deep/ paper-input-decorator[focused] .floated-label .label-text,
 html paper-input-decorator[focused] /deep/ .floated-label .label-text,
 html /deep/ paper-input-decorator[focused] /deep/ .floated-label .label-text {
-/* floating label color when the input is focused */
+  /* floating label color when the input is focused */
+
   color: #90a4ae;
 }
 html paper-input-decorator.invalid[focused] /deep/ .floated-label .label-text,
 html /deep/ paper-input-decorator.invalid[focused] /deep/ .floated-label .label-text,
 html paper-input-decorator[focused] /deep/ .error,
 html /deep/ paper-input-decorator[focused] /deep/ .error {
-/* floating label, error message nad error icon color when the input is invalid and focused */
+  /* floating label, error message nad error icon color when the input is invalid and focused */
+
   color: #ff6e40;
 }
 html paper-input-decorator.invalid /deep/ .floated-label .label-text,
 html /deep/ paper-input-decorator.invalid /deep/ .floated-label .label-text,
 html paper-input-decorator /deep/ .error,
 html /deep/ paper-input-decorator /deep/ .error {
-/* floating label, error message nad error icon color when the input is invalid and not focused */
+  /* floating label, error message nad error icon color when the input is invalid and not focused */
+
   color: #ff6e40;
 }
 html paper-input-decorator.invalid /deep/ .focused-underline,
 html /deep/ paper-input-decorator.invalid /deep/ .focused-underline,
 html paper-input-decorator.invalid /deep/ .cursor,
 html /deep/ paper-input-decorator.invalid /deep/ .cursor {
-/* line and cursor color when the input is invalid and focused */
+  /* line and cursor color when the input is invalid and focused */
+
   background-color: #ff6e40;
 }
 html .toolbar,
