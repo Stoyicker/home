@@ -1,0 +1,31 @@
+{
+  "name": "home",
+  "version": "2.0.0",
+  "homepage": "https://stoyicker.github.io/home",
+  "authors": [
+    "Jorge Antonio Diaz-Benito Soriano <jorge.diazbenitosoriano@gmail.com>"
+  ],
+  "description": "Jorge's personal webpage",
+  "main": "index.html",
+  "keywords": [
+    "Jorge",
+    "Scrum",
+    "Agile",
+    "Stoyicker",
+    "Kanban",
+    "Android",
+    "Java"
+  ],
+  "license": "CC-BY 3.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.4"
+  }
+}

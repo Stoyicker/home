@@ -1,144 +1,158 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
-<title>Jorge's personal webpage</title>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<meta name="description" content="" />
-<meta name="keywords" content="" />
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic" rel="stylesheet" type="text/css" />
-<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery.poptrox.min.js"></script>
-<script src="js/skel.min.js"></script>
-<script src="js/init.js"></script>
-<script type="text/javascript">
-jQuery(document).ready(function() {
-    var offset = 220;
-    var duration = 500;
-    jQuery(window).scroll(function() {
-        if (jQuery(this).scrollTop() > offset) {
-            jQuery('.back-to-top').fadeIn(duration);
-        } else {
-            jQuery('.back-to-top').fadeOut(duration);
-        }
-    });
+  <title>Jorge's personal webpage</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
 
-    jQuery('.back-to-top').click(function(event) {
-        event.preventDefault();
-        jQuery('html, body').animate({scrollTop: 0}, duration);
-        return false;
-    })
-});
-</script>
-<noscript>
-<link rel="stylesheet" href="css/skel-noscript.css" />
-<link rel="stylesheet" href="css/style.css" />
-</noscript>
-<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-</head><body>
+<body>
 
-<!-- Header -->
-<section id="header" style>
-  <header>
-    <article id="first" class="style1 right"> <img src="images/me.png" alt="">
-      <div class="inner">
-        <h1>Hi, I am <strong>Jorge</strong></h1>
-        <p><strong>and I work in </strong>software development</p>
-      </div>
-    </article>
-  </header>
-  <footer> <a href="#banner" class="button style2 scrolly scrolly-centered">Learn more about me</a> </footer>
-</section>
-
-<!-- Banner -->
-<section id="banner">
-  <header>
-    <h2>Passion and skill, together</h2>
-  </header>
-  <div class="container">
-    <div class="row">
-      <div class="4u">
-        <section> <span class="fa featured fa-code"></span>
-          <h3>Java-friendly</h3>
-          <p>Java SE, Android, and whatever comes close.</p>
-        </section>
-      </div>
-      <div class="4u">
-        <section> <span class="fa featured fa-suitcase"></span>
-          <h3>Agile advocate</h3>
-          <p>Scrum, XP, Kanban, Lean - because the customer is as important as insecure.</p>
-        </section>
-      </div>
-      <div class="4u">
-        <section> <span class="fa featured fa-comments-o"></span>
-          <h3>Teamwork player</h3>
-          <p>Promoting social interactions and collaborative development since 1991.</p>
-        </section>
-      </div>
-    </div>
-  </div>
-  <footer> <a href="#Portfolio" class="button style2 scrolly scrolly-centered">Take a peek at my work</a></footer>
-</section>
-
-<!-- Portfolio -->
-<section id="Portfolio">
-  <article class="container box style2">
+  <!-- Header -->
+  <section id="header" style>
     <header>
-      <h2>Showcase</h2>
-      <p>Slack time is not always idle time.</p>
-    </header>
-    <div class="inner">
-      <div class="row flush">
-        <div id="lolin1-data-provider" class="3u"><a href="http://github.com/Stoyicker/lolin1-data-provider" target="_blank" class="image full"><img style="display:inline" src="images/server.svg" alt="" title="lolin1-data-provider" /></a></div>
-        <div id="dp_report" class="3u"><a href="http://remotehost.herobo.com/degree_project/DP-DiazBenitoSoriano.pdf" target="_blank" class="image full"><img style="display:inline" src="images/document.svg"/></a></div>
-        <div id="dp_demo" class="3u"><a href="https://www.youtube.com/watch?v=j4_82Of8PH4&list=PLUynSvFkCmvKpKrjn_FNWPmtURkH_SD9K" target="_blank" class="image full"><img style="display:inline" src="images/play.svg"/></a></div>
-        <div id="Lollipop-Budget" class="3u"><a href="http://github.com/Stoyicker/Lollipop-Budget" target="_blank" class="image full"><img style="display:inline" src="images/android.svg" alt="" title="Lollipop Budget"/></a></div>
-      </div>
-    </div>
-    <footer> <a href="#Contact" class="button style2 scrolly scrolly-centered">Anything to say?</a></footer>
-  </article>
-</section>
-
-<!-- Contact -->
-<section id="Contact">
-  <article class="container box style3">
-    <header>
-      <h2>Get in touch</h2>
-      <p>(and actually get a reply!)</p>
-    </header>
-    <form method="POST" name="contactform" action="mailto:jorge.diazbenitosoriano@gmail.com?subject=Personal webpage contact request" enctype="text/plain">
-      <div class="row half">
-        <div class="12u">
-          <textarea name="Body" placeholder="Message"></textarea>
+      <article id="first" class="style1 right">
+        <img src="images/me.png" alt="">
+        <div class="inner">
+          <h1>Hi, I am
+            <strong>Jorge</strong>
+          </h1>
+          <p>
+            <strong>and I work in </strong>software development</p>
         </div>
-      </div>
-      <br>
+      </article>
+    </header>
+    <footer> <a href="#banner" class="button style2 scrolly scrolly-centered">Learn more about me</a> </footer>
+  </section>
+
+  <!-- Banner -->
+  <section id="banner">
+    <header>
+      <h2>Passion and skill, together</h2>
+    </header>
+    <div class="container">
       <div class="row">
-        <div class="12u">
-          <ul class="actions">
-            <li>
-              <input type="submit" value="Send e-mail" class="button form"/>
-            </li>
-          </ul>
+        <div class="4u">
+          <section>
+            <span class="fa featured fa-code"></span>
+            <h3>Java-friendly</h3>
+            <p>Java SE, Android, and whatever comes close.</p>
+          </section>
+        </div>
+        <div class="4u">
+          <section>
+            <span class="fa featured fa-suitcase"></span>
+            <h3>Agile advocate</h3>
+            <p>Scrum, XP, Kanban, Lean - because the customer is as important as insecure.</p>
+          </section>
+        </div>
+        <div class="4u">
+          <section>
+            <span class="fa featured fa-comments-o"></span>
+            <h3>Teamwork player</h3>
+            <p>Promoting social interactions and collaborative development since 1991.</p>
+          </section>
         </div>
       </div>
-    </form>
-  </article>
-</section>
-<section id="footer">
-  <ul class="icons">
-    <li><a href="http://facebook.com/Mangarinos" target="_blank" class="fa fa-facebook solo" style="
-	border-bottom: none;"><span>Facebook</span></a>
-    <li><a href="http://linkedin.com/in/jorgediazbenitosoriano" target="_blank" class="fa fa-linkedin solo" style="
-	border-bottom: none;"><span>LinkedIn</span></a></li>
-    <li><a href="http://github.com/Stoyicker" target="_blank" class="fa fa-github solo" style="
-	border-bottom: none;"><span>GitHub</span></a></li>
-    <li><a href="http://twitter.com/JMangarinos" target="_blank" class="fa fa-twitter solo" style="
-	border-bottom: none;"><span>Twitter</span></a></li>
-    </li>
-  </ul>
-</section>
-<a href="#" class="back-to-top"></a>
+    </div>
+    <footer> <a href="#Portfolio" class="button style2 scrolly scrolly-centered">Take a peek at my work</a>
+    </footer>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="Portfolio">
+    <article class="container box style2">
+      <header>
+        <h2>Showcase</h2>
+        <p>Slack time is not always idle time.</p>
+      </header>
+      <div class="inner">
+        <div class="row flush">
+          <div id="lolin1-data-provider" class="3u">
+            <a href="http://github.com/Stoyicker/lolin1-data-provider" target="_blank" class="image full">
+              <img style="display:inline" src="images/server.svg" alt="" title="lolin1-data-provider" />
+            </a>
+          </div>
+          <div id="dp_report" class="3u">
+            <a href="http://remotehost.herobo.com/degree_project/DP-DiazBenitoSoriano.pdf" target="_blank" class="image full">
+              <img style="display:inline" src="images/document.svg" />
+            </a>
+          </div>
+          <div id="dp_demo" class="3u">
+            <a href="https://www.youtube.com/watch?v=j4_82Of8PH4&list=PLUynSvFkCmvKpKrjn_FNWPmtURkH_SD9K" target="_blank" class="image full">
+              <img style="display:inline" src="images/play.svg" />
+            </a>
+          </div>
+          <div id="Lollipop-Budget" class="3u">
+            <a href="http://github.com/Stoyicker/Lollipop-Budget" target="_blank" class="image full">
+              <img style="display:inline" src="images/android.svg" alt="" title="Lollipop Budget" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <footer> <a href="#Contact" class="button style2 scrolly scrolly-centered">Anything to say?</a>
+      </footer>
+    </article>
+  </section>
+
+  <!-- Contact -->
+  <section id="Contact">
+    <article class="container box style3">
+      <header>
+        <h2>Get in touch</h2>
+        <p>(and actually get a reply!)</p>
+      </header>
+      <form method="POST" name="contactform" action="mailto:jorge.diazbenitosoriano@gmail.com?subject=Personal webpage contact request" enctype="text/plain">
+        <div class="row half">
+          <div class="12u">
+            <textarea name="Body" placeholder="Message"></textarea>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="12u">
+            <ul class="actions">
+              <li>
+                <input type="submit" value="Send e-mail" class="button form" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </form>
+    </article>
+  </section>
+  <section id="footer">
+    <ul class="icons">
+      <li>
+        <a href="http://facebook.com/Mangarinos" target="_blank" class="fa fa-facebook solo" style="
+	border-bottom: none;">
+          <span>Facebook</span>
+        </a>
+        <li>
+          <a href="http://linkedin.com/in/jorgediazbenitosoriano" target="_blank" class="fa fa-linkedin solo" style="
+	border-bottom: none;">
+            <span>LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a href="http://github.com/Stoyicker" target="_blank" class="fa fa-github solo" style="
+	border-bottom: none;">
+            <span>GitHub</span>
+          </a>
+        </li>
+        <li>
+          <a href="http://twitter.com/JMangarinos" target="_blank" class="fa fa-twitter solo" style="
+	border-bottom: none;">
+            <span>Twitter</span>
+          </a>
+        </li>
+      </li>
+    </ul>
+  </section>
+  <a href="#" class="back-to-top"></a>
 </body>
+
 </html>
