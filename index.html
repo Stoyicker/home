@@ -2,17 +2,27 @@
 <html>
 
 <head>
-  <title>Jorge's personal webpage</title>
+  <title>Jorge</title>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
   <link rel="import" href="bower_components/core-elements/core-elements.html">
-
+  <link rel="import" href="bower_components/core-icons/social-icons.html">
+  <link rel="import" href="bower_components/paper-elements/paper-elements.html">
   <link rel="stylesheet" href="./css/polymer_theme_denim.css" shim-shadowdom>
+  <style>
+    core-icon[icon="social:person"] {
+      padding: 4px;
+    }
+    .shadow {
+      display: inline-block;
+    }
+  </style>
 </head>
 
-<body fullbleed touch-action="auto" fullbleed layout vertical>
+<body unresolved fullbleed touch-action="auto" fullbleed layout vertical>
   <core-header-panel flex>
     <div id="content">
+      <!-- This stylle is a fix for Firefox and the like -->
       <style shim-shadowdom>
         .unselectable {
           -webkit-user-select: none;
@@ -25,9 +35,6 @@
           -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
           -webkit-touch-callout: none;
         }
-        .example {
-          padding: 20px;
-        }
         .centered-panel {
           display: inline-block;
           margin: 0 auto;
@@ -36,12 +43,22 @@
       </style>
 
       <section>
-        <h1>Hello, I am Jorge</h1>
-        <h2>and I work within software development</h2>
-        <a href="./css/theme.css?download" title="TODO LinkedIn badge or shit">
-          <paper-button raised primary>
-            <core-icon icon="file-download"></core-icon>Download CSS</paper-button>
-        </a>
+        <header>
+          <article>
+              <img src="images/me.png" alt="">
+            <div>
+              <h1>Hello, I am Jorge</h1>
+              <h2>and I work within software development</h2>
+            </div>
+          </article>
+        </header>
+        <footer>
+          <a href="http://linkedin.com/in/jorgediazbenitosoriano" title="Reach me!">
+            <paper-button raised primary>
+              <core-icon icon="social:person"></core-icon>
+              Reach me!</paper-button>
+          </a>
+        </footer>
       </section>
     </div>
   </core-header-panel>
