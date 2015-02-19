@@ -7,10 +7,12 @@
   <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
   <link rel="import" href="bower_components/core-elements/core-elements.html">
   <link rel="import" href="bower_components/core-icons/social-icons.html">
+  <link rel="import" href="bower_components/core-icons/device-icons.html">
   <link rel="import" href="bower_components/paper-elements/paper-elements.html">
   <link rel="stylesheet" href="./css/polymer_theme_denim.css" shim-shadowdom>
   <style>
-    core-icon[icon="social:person"] {
+    core-icon {
+      color: #FFF;
       padding: 4px;
     }
     .shadow {
@@ -67,22 +69,25 @@
         </header>
         <div class="container-odd">
           <div horizontal layout>
-            <div flex>
+            <div class="content-column" flex>
               <section>
+                <core-icon icon="device:developer-mode"></core-icon>
                 <h3>Java-friendly</h3>
                 <p>Java SE, Java EE, Android, and whatever comes on the way.</p>
               </section>
             </div>
-            <div flex>
-              <section>
-                <h3>Agile advocate</h3>
-                <p>Scrum, XP, Kanban, Lean - because the customer is as important as insecure.</p>
-              </section>
+            <div class="content-column" flex>
+            <section>
+              <core-icon icon="social:mood"></core-icon>
+              <h3>Teamwork player</h3>
+              <p>Promoting social interactions and collaborative development since 1991.</p>
+            </section>
             </div>
-            <div flex>
+            <div class="content-column" flex>
               <section>
-                <h3>Teamwork player</h3>
-                <p>Promoting social interactions and collaborative development since 1991.</p>
+                <core-icon icon="social:people"></core-icon>
+                <h3>Agile advocate</h3>
+                <p>Software development has evolved. Change is real, empower your team.</p>
               </section>
             </div>
           </div>

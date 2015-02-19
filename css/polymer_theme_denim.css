@@ -635,3 +635,7 @@ html /deep/ paper-spinner:not([default-spinner])::shadow .circle {
 .container-odd {
   background-color: #373550;
 }
+.content-column {
+  margin-left: 30px;
+  margin-right: 30px
+}
