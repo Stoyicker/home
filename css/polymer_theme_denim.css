@@ -629,5 +629,12 @@ html /deep/ paper-spinner:not([default-spinner])::shadow .circle {
 }
 .content-column {
   margin-left: 30px;
-  margin-right: 30px
+  margin-right: 30px;
+}
+.social-buttons {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.rrssb-text {
+  margin-left: 20px;
 }
