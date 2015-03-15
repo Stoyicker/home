@@ -1,13 +1,13 @@
 {
-  "name": "home",
-  "version": "2.0.0",
-  "homepage": "https://stoyicker.github.io/home",
-  "authors": [
+    "name": "home",
+    "version": "2.0.0",
+    "homepage": "https://stoyicker.github.io/home",
+    "authors": [
     "Jorge Antonio Diaz-Benito Soriano <jorge.diazbenitosoriano@gmail.com>"
   ],
-  "description": "Jorge",
-  "main": "index.html",
-  "keywords": [
+    "description": "Jorge",
+    "main": "index.html",
+    "keywords": [
     "Jorge",
     "Scrum",
     "Agile",
@@ -16,18 +16,18 @@
     "Android",
     "Java"
   ],
-  "license": "CC-BY 3.0",
-  "private": true,
-  "ignore": [
+    "license": "CC-BY 3.0",
+    "private": true,
+    "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
   ],
-  "dependencies": {
-    "polymer": "Polymer/polymer#~0.5.4",
-    "core-elements": "Polymer/core-elements#~0.5.4",
-    "core-icons": "Polymer/core-icons#~0.5.4"
-  }
+    "dependencies": {
+        "polymer": "Polymer/polymer#~0.5.4",
+        "core-elements": "Polymer/core-elements#~0.5.4",
+        "core-icons": "Polymer/core-icons#~0.5.4"
+    }
 }

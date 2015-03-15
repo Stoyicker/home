@@ -2,117 +2,120 @@
 <html>
 
 <head>
-  <title>Jorge</title>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
-  <link rel="import" href="bower_components/core-elements/core-elements.html">
-  <link rel="import" href="bower_components/core-icons/social-icons.html">
-  <link rel="import" href="bower_components/core-icons/device-icons.html">
-  <link rel="import" href="bower_components/paper-elements/paper-elements.html">
-  <link rel="stylesheet" href="./css/polymer_theme_denim.css" shim-shadowdom>
-  <link rel="stylesheet" href="bower_components/RRSSB/css/rrssb.css" />
-  <style>
-    core-icon {
-      color: #FFF;
-      padding: 4px;
-    }
-    .shadow {
-      display: inline-block;
-    }
-  </style>
+    <title>Jorge</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+    <link rel="import" href="bower_components/core-elements/core-elements.html">
+    <link rel="import" href="bower_components/core-icons/social-icons.html">
+    <link rel="import" href="bower_components/core-icons/device-icons.html">
+    <link rel="import" href="bower_components/paper-elements/paper-elements.html">
+    <link rel="stylesheet" href="./css/polymer_theme_denim.css" shim-shadowdom>
+    <link rel="stylesheet" href="bower_components/RRSSB/css/rrssb.css" />
+    <style>
+        core-icon {
+            color: #FFF;
+            padding: 4px;
+        }
+
+        .shadow {
+            display: inline-block;
+        }
+    </style>
 </head>
 
 <body unresolved fullbleed touch-action="auto" fullbleed layout vertical>
-  <core-header-panel flex>
-    <div id="content">
-      <!-- This stylle is a fix for Firefox and the like -->
-      <style shim-shadowdom>
-        .unselectable {
-          -webkit-user-select: none;
-          -moz-user-select: none;
-          -ms-user-select: none;
-          -o-user-select: none;
-          user-select: none;
-        }
-        .no-tap-color {
-          -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-          -webkit-touch-callout: none;
-        }
-        .centered-panel {
-          display: inline-block;
-          margin: 0 auto;
-          text-align: left;
-        }
-      </style>
+    <core-header-panel flex>
+        <div id="content">
+            <!-- This stylle is a fix for Firefox and the like -->
+            <style shim-shadowdom>
+                .unselectable {
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    -o-user-select: none;
+                    user-select: none;
+                }
 
-      <section>
-        <header>
-          <article>
-            <img src="images/me.png" alt="">
-            <div>
-              <h1>Hello, I am Jorge</h1>
-              <h2>and I work within software development</h2>
-            </div>
-          </article>
-        </header>
-        <footer>
-          <a href="http://linkedin.com/in/jorgediazbenitosoriano" title="Reach me!">
-            <paper-button raised primary>
-              <core-icon icon="social:person"></core-icon>
-              Reach me!</paper-button>
-          </a>
-        </footer>
-      </section>
+                .no-tap-color {
+                    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                    -webkit-touch-callout: none;
+                }
 
-      <section id="skillset">
-        <header>
-          <h2>Passion and skill, together</h2>
-        </header>
-        <div class="container-odd">
-          <div horizontal layout>
-            <div class="content-column" flex>
-              <section>
-                <core-icon icon="device:developer-mode"></core-icon>
-                <h3>Java-friendly</h3>
-                <p>Java SE, Java EE, Android, and whatever comes on the way.</p>
-              </section>
-            </div>
-            <div class="content-column" flex>
-              <section>
-                <core-icon icon="social:mood"></core-icon>
-                <h3>Teamwork player</h3>
-                <p>Promoting social interactions and collaborative development since 1991.</p>
-              </section>
-            </div>
-            <div class="content-column" flex>
-              <section>
-                <core-icon icon="social:people"></core-icon>
-                <h3>Agile advocate</h3>
-                <p>Software development has evolved. Change is real, empower your team.</p>
-              </section>
-            </div>
-          </div>
+                .centered-panel {
+                    display: inline-block;
+                    margin: 0 auto;
+                    text-align: left;
+                }
+            </style>
+
+            <section>
+                <header>
+                    <article>
+                        <img src="images/me.png" alt="">
+                        <div>
+                            <h1>Hello, I am Jorge</h1>
+                            <h2>and I work within software development</h2>
+                        </div>
+                    </article>
+                </header>
+                <footer>
+                    <a href="http://linkedin.com/in/jorgediazbenitosoriano" title="Reach me!">
+                        <paper-button raised primary>
+                            <core-icon icon="social:person"></core-icon>
+                            Reach me!</paper-button>
+                    </a>
+                </footer>
+            </section>
+
+            <section id="skillset">
+                <header>
+                    <h2>Passion and skill, together</h2>
+                </header>
+                <div class="container-odd">
+                    <div horizontal layout>
+                        <div class="content-column" flex>
+                            <section>
+                                <core-icon icon="device:developer-mode"></core-icon>
+                                <h3>Begins with "Java"</h3>
+                                <p>Java, Android, JavaScript, and whatever comes on the way.</p>
+                            </section>
+                        </div>
+                        <div class="content-column" flex>
+                            <section>
+                                <core-icon icon="social:mood"></core-icon>
+                                <h3>Teamwork player</h3>
+                                <p>Promoting social interactions and collaborative development since 1991.</p>
+                            </section>
+                        </div>
+                        <div class="content-column" flex>
+                            <section>
+                                <core-icon icon="social:people"></core-icon>
+                                <h3>Agile advocate</h3>
+                                <p>Software development has evolved. Change is real, empower your team.</p>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-      </section>
-    </div>
-    <div id="social-buttons" class="social-buttons">
-      <ul>
-        <ul class="rrssb-buttons clearfix rrssb-1">
-          <li class="rrssb-facebook" data-initwidth="14.285714285714286" data-size="64" style="width: calc(50% - 105px);">
-            <a target="_blank" href="https://www.facebook.com/Mangarinos">
-              <span class="rrssb-icon">
+        <div id="social-buttons" class="social-buttons">
+            <ul>
+                <ul class="rrssb-buttons clearfix rrssb-1">
+                    <li class="rrssb-facebook" data-initwidth="14.285714285714286" data-size="64" style="width: calc(50% - 105px);">
+                        <a target="_blank" href="https://www.facebook.com/Mangarinos">
+                            <span class="rrssb-icon">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="28px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">
                   <path d="M27.825,4.783c0-2.427-2.182-4.608-4.608-4.608H4.783c-2.422,0-4.608,2.182-4.608,4.608v18.434
                                         c0,2.427,2.181,4.608,4.608,4.608H14V17.379h-3.379v-4.608H14v-1.795c0-3.089,2.335-5.885,5.192-5.885h3.718v4.608h-3.726
                                         c-0.408,0-0.884,0.492-0.884,1.236v1.836h4.609v4.608h-4.609v10.446h4.916c2.422,0,4.608-2.188,4.608-4.608V4.783z"></path>
                 </svg>
               </span>
-              <span class="rrssb-text">Mangarinos</span>
-            </a>
-          </li>
-          <li class="rrssb-linkedin small" data-initwidth="14.285714285714286" data-size="53" style="width: 42px;">
-            <a href="http://www.linkedin.com/in/jorgediazbenitosoriano">
-              <span class="rrssb-icon">
+                            <span class="rrssb-text">Mangarinos</span>
+                        </a>
+                    </li>
+                    <li class="rrssb-linkedin small" data-initwidth="14.285714285714286" data-size="53" style="width: 42px;">
+                        <a href="http://www.linkedin.com/in/jorgediazbenitosoriano">
+                            <span class="rrssb-icon">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="28px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">
                   <path d="M25.424,15.887v8.447h-4.896v-7.882c0-1.979-0.709-3.331-2.48-3.331c-1.354,0-2.158,0.911-2.514,1.803
                                         c-0.129,0.315-0.162,0.753-0.162,1.194v8.216h-4.899c0,0,0.066-13.349,0-14.731h4.899v2.088c-0.01,0.016-0.023,0.032-0.033,0.048
@@ -121,13 +124,12 @@
                                         C8.054,3.593,7.019,2.501,5.343,2.501H5.348z M2.867,24.334h4.897V9.603H2.867V24.334z"></path>
                 </svg>
               </span>
-              <span class="rrssb-text">jorgediazbenitosoriano</span>
-            </a>
-          </li>
-          <li class="rrssb-twitter small" data-initwidth="14.285714285714286" data-size="50" style="width: 42px;">
-            <!-- Replace href with your Meta and URL information  -->
-            <a target="_blank" href="https://twitter.com/JMangarinos">
-              <span class="rrssb-icon">
+                            <span class="rrssb-text">jorgediazbenitosoriano</span>
+                        </a>
+                    </li>
+                    <li class="rrssb-twitter small" data-initwidth="14.285714285714286" data-size="50" style="width: 42px;">
+                        <a target="_blank" href="https://twitter.com/JMangarinos">
+                            <span class="rrssb-icon">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="28px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">
                   <path d="M24.253,8.756C24.689,17.08,18.297,24.182,9.97,24.62c-3.122,0.162-6.219-0.646-8.861-2.32
                                     c2.703,0.179,5.376-0.648,7.508-2.321c-2.072-0.247-3.818-1.661-4.489-3.638c0.801,0.128,1.62,0.076,2.399-0.155
@@ -137,12 +139,12 @@
                                     C26.275,7.229,25.39,8.196,24.253,8.756z"></path>
                 </svg>
               </span>
-              <span class="rrssb-text">@JMangarinos</span>
-            </a>
-          </li>
-          <li class="rrssb-github small" data-initwidth="14.285714285714286" data-size="44" style="width: 42px;">
-            <a href="https://github.com/Stoyicker">
-              <span class="rrssb-icon">
+                            <span class="rrssb-text">@JMangarinos</span>
+                        </a>
+                    </li>
+                    <li class="rrssb-github small" data-initwidth="14.285714285714286" data-size="44" style="width: 42px;">
+                        <a href="https://github.com/Stoyicker">
+                            <span class="rrssb-icon">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="28px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">
                   <path d="M13.971,1.571c-7.031,0-12.734,5.702-12.734,12.74c0,5.621,3.636,10.392,8.717,12.083c0.637,0.129,0.869-0.277,0.869-0.615
                                     c0-0.301-0.012-1.102-0.018-2.164c-3.542,0.77-4.29-1.707-4.29-1.707c-0.579-1.473-1.414-1.863-1.414-1.863
@@ -155,24 +157,24 @@
                                     C26.708,7.262,21.012,1.563,13.971,1.571L13.971,1.571z"></path>
                 </svg>
               </span>
-              <span class="rrssb-text">Stoyicker</span>
-            </a>
-          </li>
-        </ul>
-      </ul>
-    </div>
-    <div id="footer" style="text-align: center; margin: 30px 0px 20px 0px;">
-      <p class="small">
-        <br> © 2015 Jorge Antonio Diaz-Benito Soriano
-      </p>
-    </div>
-  </core-header-panel>
+                            <span class="rrssb-text">Stoyicker</span>
+                        </a>
+                    </li>
+                </ul>
+            </ul>
+        </div>
+        <div id="footer" style="text-align: center; margin: 30px 0px 20px 0px;">
+            <p class="small">
+                <br> © 2015 Jorge Antonio Diaz-Benito Soriano
+            </p>
+        </div>
+    </core-header-panel>
 
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script>
-    window.jQuery || document.write('<script src="bower_components/RRSSB/js/vendor/jquery.1.10.2.min.js"><\/script>')
-  </script>
-  <script src="bower_components/RRSSB/js/rrssb.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="bower_components/RRSSB/js/vendor/jquery.1.10.2.min.js"><\/script>')
+    </script>
+    <script src="bower_components/RRSSB/js/rrssb.min.js"></script>
 </body>
 
 </html>
