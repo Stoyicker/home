@@ -103,6 +103,12 @@ html /deep/ h6 {
     font-weight: 400;
     margin: 0px;
     padding: 0px;
+    color: white;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+p1 {
+    color: black;
 }
 
 html h1,
@@ -122,7 +128,7 @@ html /deep/ h1 {
 
 html h2,
 html /deep/ h2 {
-    color: #bdced7;
+    color: #373560;
     font-size: 40px;
     margin: 20px 0px;
 }
@@ -184,7 +190,7 @@ html /deep/ paper-button[disabled] {
 
 html paper-button[raised],
 html /deep/ paper-button[raised] {
-    color: #676f9a;
+    background-color: #555;
 }
 
 html paper-button #ripple,
