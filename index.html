@@ -9,6 +9,7 @@
     <link rel="import" href="bower_components/core-icons/social-icons.html">
     <link rel="import" href="bower_components/core-icons/device-icons.html">
     <link rel="import" href="bower_components/paper-elements/paper-elements.html">
+    <link rel="stylesheet" href="./css/animations.css">
     <link rel="stylesheet" href="./css/polymer_theme_denim.css" shim-shadowdom>
     <link rel="stylesheet" href="bower_components/RRSSB/css/rrssb.css" />
     <style>
@@ -16,7 +17,7 @@
             color: #FFF;
             padding: 4px;
         }
-
+        
         .shadow {
             display: inline-block;
         }
@@ -35,12 +36,12 @@
                     -o-user-select: none;
                     user-select: none;
                 }
-
+                
                 .no-tap-color {
                     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
                     -webkit-touch-callout: none;
                 }
-
+                
                 .centered-panel {
                     display: inline-block;
                     margin: 0 auto;
@@ -53,7 +54,7 @@
                     <article>
                         <img src="images/me.png" alt="">
                         <div>
-                            <h1>Hello, I am Jorge</h1>
+                            <h1 class="animated growIn slow go">Hello, I am Jorge</h1>
                             <h2>and I work within software development</h2>
                         </div>
                     </article>
@@ -77,7 +78,7 @@
                             <section>
                                 <core-icon icon="device:developer-mode"></core-icon>
                                 <h3>Begins with "Java"</h3>
-                                <p>Java, Android, JavaScript, and whatever comes in the way.</p>
+                                <p class="animate-in">Java, Android, JavaScript, and whatever comes in the way.</p>
                             </section>
                         </div>
                         <div class="content-column" flex>
@@ -163,6 +164,9 @@
                 </ul>
             </ul>
         </div>
+        <?php echo htmlspecialchars( "<!--[if lte IE 9]>
+      <link href='./css/animations-ie-fix.css' rel='stylesheet'>
+<![endif]-->"); ?>
         <div id="footer" style="text-align: center; margin: 30px 0px 20px 0px;">
             <p class="small">
                 <br> © 2015 Jorge Antonio Diaz-Benito Soriano
@@ -178,3 +182,5 @@
 </body>
 
 </html>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src='./js/css3-animate-it.js'></script>
