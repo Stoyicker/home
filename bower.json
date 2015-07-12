@@ -1,32 +1,29 @@
 {
-    "name": "home",
-    "version": "2.0.0",
-    "homepage": "https://stoyicker.github.io/home",
-    "authors": [
-    "Jorge Antonio Diaz-Benito Soriano <jorge.diazbenitosoriano@gmail.com>"
+  "name": "material-design-lite",
+  "version": "1.0.0",
+  "homepage": "https://github.com/google/material-design-lite",
+  "authors": [
+    "Material Design Lite team"
   ],
-    "description": "Jorge",
-    "main": "index.html",
-    "keywords": [
-    "Jorge",
-    "Scrum",
-    "Agile",
-    "Stoyicker",
-    "Kanban",
-    "Android",
-    "Java"
+  "description": "Material Design Components in CSS, JS and HTML",
+  "main": [
+    "material.min.css",
+    "material.min.js"
   ],
-    "private": true,
-    "ignore": [
+  "keywords": [
+    "material",
+    "design",
+    "styleguide",
+    "style",
+    "guide"
+  ],
+  "license": "Apache-2",
+  "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
+    "./lib/.bower_components",
     "test",
     "tests"
-  ],
-    "dependencies": {
-        "polymer": "Polymer/polymer#~0.5.4",
-        "core-elements": "Polymer/core-elements#~0.5.4",
-        "core-icons": "Polymer/core-icons#~0.5.4"
-    }
+  ]
 }
