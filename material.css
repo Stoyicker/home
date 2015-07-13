@@ -5084,9 +5084,6 @@ ol {
 
 .mdl-card__supporting-text {
     color: rgba(0, 0, 0, 0.87);
-    font-size: 13px;
-    line-height: 18px;
-    overflow: hidden;
     padding: 16px 16px;
     width: 90%;
 }
