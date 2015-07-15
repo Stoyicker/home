@@ -1,0 +1,58 @@
+/* lg */ 
+@media (min-width: 1200px) {
+
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+
+/* sm */
+@media (min-width: 300px) and (max-width: 991px) {
+	.user-header img{
+		margin-top: 60px;
+	}
+	.user-header h1{
+		font-size: 30px;
+	}
+	.user-header h4 {
+    	font-size: 18px;
+	}
+	h1{
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	.card p, .contact p, .about-me a, .card a{
+		font-size: 14px;
+	}
+	.work h4, .education h4{
+		font-size: 18px;
+	}
+	.work small, .education small{
+		font-size: 12px;
+	}
+	.language .star{
+		margin-bottom: 20px;
+	}
+	.pcard h2, .pcard2 h2{
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.pcard a{
+		font-size: 14px;
+	}
+	.cover-letter h4{
+		font-size: 18px;
+	}
+}
+
+/* xs */
+@media (max-width: 640px) {
+
+}
+
+/* XS Portrait */
+@media (max-width: 767px) {
+
+}
