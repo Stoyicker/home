@@ -98,10 +98,11 @@
                             </div>
                             <div class="col-md-6 col-xs-6">
                                 <small class="pull-right wow fadeInUp animated">
-                           <span class="md-today"></span> <b>TODO COVER LETTER DATE</b>
+                           <span class="md-today" id="date"></span>
                            </small>
                             </div>
                         </div>
+                        <br/>
                         <div class="row">
                             <div class="col-md-12">
                                 <p class="wow fadeInUp animated">
@@ -160,7 +161,16 @@
     </script>
     <script type="text/javascript" charset="utf-8">
         $(function() {
-            $.srSmoothscroll()
+            $.srSmoothscroll();
+            var now = new Date();
+            var day = ("0" + now.getDate()).slice(-2);
+            var month = now.getMonth();
+            var monthNames = ["JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE",
+                "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"
+            ];
+            var today = "<b>" + monthNames[month] + " " + (day) + ", " + now.getFullYear() + "</b>";
+
+            $('#date').append(today);
         })
 
     </script>
